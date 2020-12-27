@@ -43,135 +43,136 @@ namespace Stay_Fit
             int dateNumber =  (int)t.TotalDays;
 
 
-            if(time.Equals("07.55 AM")) // "07:55 AM"
+            if (time.Equals("07:55 AM")) // "07:55 AM"
             {
 
-                if(dateNumber%3 == 0)
+                switch (dateNumber % 3)
                 {
-                    ShowMessage(Properties.Resources.Set11);
-                } else if(dateNumber%3 == 1)
-                {
-                    ShowMessage(Properties.Resources.Set21);
-                }
-                else if (dateNumber % 3 == 2)
-                {
-                    ShowMessage(Properties.Resources.Set31);
+                    case 0:
+                        ShowMessage(Properties.Resources.Set11);
+                        break;
+                    case 1:
+                        ShowMessage(Properties.Resources.Set21);
+                        break;
+                    case 2:
+                        ShowMessage(Properties.Resources.Set31);
+                        break;
                 }
 
             } else if (time.Equals("08:30 AM"))
             {
-                if (dateNumber % 3 == 0)
+                switch (dateNumber % 3)
                 {
-                    ShowMessage(Properties.Resources.Set12);
-                }
-                else if (dateNumber % 3 == 1)
-                {
-                    ShowMessage(Properties.Resources.Set22);
-                }
-                else if (dateNumber % 3 == 2)
-                {
-                    ShowMessage(Properties.Resources.Set32);
+                    case 0:
+                        ShowMessage(Properties.Resources.Set12);
+                        break;
+                    case 1:
+                        ShowMessage(Properties.Resources.Set22);
+                        break;
+                    case 2:
+                        ShowMessage(Properties.Resources.Set32);
+                        break;
                 }
 
             } else if (time.Equals("10:00 AM"))
             {
-                if (dateNumber % 3 == 0)
+                switch (dateNumber % 3)
                 {
-                    ShowMessage(Properties.Resources.Set13);
-                }
-                else if (dateNumber % 3 == 1)
-                {
-                    ShowMessage(Properties.Resources.Set23);
-                }
-                else if (dateNumber % 3 == 2)
-                {
-                    ShowMessage(Properties.Resources.Set33);
+                    case 0:
+                        ShowMessage(Properties.Resources.Set13);
+                        break;
+                    case 1:
+                        ShowMessage(Properties.Resources.Set23);
+                        break;
+                    case 2:
+                        ShowMessage(Properties.Resources.Set33);
+                        break;
                 }
 
             } else if (time.Equals("11:30 AM"))
             {
-                if (dateNumber % 3 == 0)
+                switch (dateNumber % 3)
                 {
-                    ShowMessage(Properties.Resources.Set14);
-                }
-                else if (dateNumber % 3 == 1)
-                {
-                    ShowMessage(Properties.Resources.Set24);
-                }
-                else if (dateNumber % 3 == 2)
-                {
-                    ShowMessage(Properties.Resources.Set34);
+                    case 0:
+                        ShowMessage(Properties.Resources.Set14);
+                        break;
+                    case 1:
+                        ShowMessage(Properties.Resources.Set24);
+                        break;
+                    case 2:
+                        ShowMessage(Properties.Resources.Set34);
+                        break;
                 }
 
             } else if (time.Equals("01:00 PM"))
             {
-                if (dateNumber % 3 == 0)
+                switch (dateNumber % 3)
                 {
-                    ShowMessage(Properties.Resources.Set15);
-                }
-                else if (dateNumber % 3 == 1)
-                {
-                    ShowMessage(Properties.Resources.Set25);
-                }
-                else if (dateNumber % 3 == 2)
-                {
-                    ShowMessage(Properties.Resources.Set35);
+                    case 0:
+                        ShowMessage(Properties.Resources.Set15);
+                        break;
+                    case 1:
+                        ShowMessage(Properties.Resources.Set25);
+                        break;
+                    case 2:
+                        ShowMessage(Properties.Resources.Set35);
+                        break;
                 }
             } else if (time.Equals("02:30 PM"))
             {
-                if (dateNumber % 3 == 0)
+                switch (dateNumber % 3)
                 {
-                    ShowMessage(Properties.Resources.Set16);
-                }
-                else if (dateNumber % 3 == 1)
-                {
-                    ShowMessage(Properties.Resources.Set26);
-                }
-                else if (dateNumber % 3 == 2)
-                {
-                    ShowMessage(Properties.Resources.Set36);
+                    case 0:
+                        ShowMessage(Properties.Resources.Set16);
+                        break;
+                    case 1:
+                        ShowMessage(Properties.Resources.Set26);
+                        break;
+                    case 2:
+                        ShowMessage(Properties.Resources.Set36);
+                        break;
                 }
             } else if (time.Equals("03:30 PM")) 
             {
-                if (dateNumber % 3 == 0)
+                switch (dateNumber % 3)
                 {
-                    ShowMessage(Properties.Resources.Set17);
-                }
-                else if (dateNumber % 3 == 1)
-                {
-                    ShowMessage(Properties.Resources.Set27);
-                }
-                else if (dateNumber % 3 == 2)
-                {
-                    ShowMessage(Properties.Resources.Set37);
+                    case 0:
+                        ShowMessage(Properties.Resources.Set17);
+                        break;
+                    case 1:
+                        ShowMessage(Properties.Resources.Set27);
+                        break;
+                    case 2:
+                        ShowMessage(Properties.Resources.Set37);
+                        break;
                 }
             } else if (time.Equals("05:30 PM"))
             {
-                if (dateNumber % 3 == 0)
+                switch (dateNumber % 3)
                 {
-                    ShowMessage(Properties.Resources.Set18);
-                }
-                else if (dateNumber % 3 == 1)
-                {
-                    ShowMessage(Properties.Resources.Set28);
-                }
-                else if (dateNumber % 3 == 2)
-                {
-                    ShowMessage(Properties.Resources.Set38);
+                    case 0:
+                        ShowMessage(Properties.Resources.Set18);
+                        break;
+                    case 1:
+                        ShowMessage(Properties.Resources.Set28);
+                        break;
+                    case 2:
+                        ShowMessage(Properties.Resources.Set38);
+                        break;
                 }
             } else if (time.Equals("08:00 PM"))
             {
-                if (dateNumber % 3 == 0)
+                switch (dateNumber % 3)
                 {
-                    ShowMessage(Properties.Resources.Set19);
-                }
-                else if (dateNumber % 3 == 1)
-                {
-                    ShowMessage(Properties.Resources.Set29);
-                }
-                else if (dateNumber % 3 == 2)
-                {
-                    ShowMessage(Properties.Resources.Set39);
+                    case 0:
+                        ShowMessage(Properties.Resources.Set19);
+                        break;
+                    case 1:
+                        ShowMessage(Properties.Resources.Set29);
+                        break;
+                    case 2:
+                        ShowMessage(Properties.Resources.Set39);
+                        break;
                 }
             }
         }
@@ -214,6 +215,11 @@ namespace Stay_Fit
                 // Console app
                 System.Environment.Exit(1);
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            ShowMessage(Properties.Resources.Set39);
         }
     }
 }
