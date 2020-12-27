@@ -19,9 +19,9 @@ namespace Stay_Fit
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string message = "Simple MessageBox";
-            string title = "Title";
-            MessageBox.Show(message, title);
+
+            AlertForm f = new AlertForm();
+            f.ShowDialog();
         }
 
         private void MainWindow_Resize(object sender, EventArgs e)
@@ -41,6 +41,20 @@ namespace Stay_Fit
             Show();
             this.WindowState = FormWindowState.Normal;
             notifyIcon.Visible = false;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (System.Windows.Forms.Application.MessageLoop)
+            {
+                // WinForms app
+                System.Windows.Forms.Application.Exit();
+            }
+            else
+            {
+                // Console app
+                System.Environment.Exit(1);
+            }
         }
     }
 }

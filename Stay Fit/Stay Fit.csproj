@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlertForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlertForm.Designer.cs">
+      <DependentUpon>AlertForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,22 +60,26 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AlertForm.resx">
+      <DependentUpon>AlertForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainWindow.resx">
       <DependentUpon>MainWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -78,6 +88,88 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Set11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set19.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set25.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set26.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set27.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set28.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set32.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set33.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set34.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set35.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set36.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set37.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set38.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Set39.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
