@@ -17,14 +17,9 @@ namespace Stay_Fit
             InitializeComponent();
         }
 
-        private void accept_Click(object sender, EventArgs e)
+        public void SetImage(Bitmap image)
         {
-            this.Close();
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
+            pictureBox1.Image = image;
         }
     }
 }
