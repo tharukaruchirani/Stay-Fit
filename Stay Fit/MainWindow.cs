@@ -42,8 +42,9 @@ namespace Stay_Fit
             TimeSpan t = dt - start;
             int dateNumber =  (int)t.TotalDays;
 
+            Console.WriteLine(time);
 
-            if (time.Equals("07:55 AM")) // "07:55 AM"
+            if (time.Equals("7:55 PM")) // "7:55 AM"
             {
 
                 switch (dateNumber % 3)
@@ -59,7 +60,7 @@ namespace Stay_Fit
                         break;
                 }
 
-            } else if (time.Equals("08:30 AM"))
+            } else if (time.Equals("8:30 AM"))
             {
                 switch (dateNumber % 3)
                 {
@@ -104,7 +105,7 @@ namespace Stay_Fit
                         break;
                 }
 
-            } else if (time.Equals("01:00 PM"))
+            } else if (time.Equals("1:00 PM"))
             {
                 switch (dateNumber % 3)
                 {
@@ -118,7 +119,7 @@ namespace Stay_Fit
                         ShowMessage(Properties.Resources.Set35);
                         break;
                 }
-            } else if (time.Equals("02:30 PM"))
+            } else if (time.Equals("2:30 PM"))
             {
                 switch (dateNumber % 3)
                 {
@@ -132,7 +133,7 @@ namespace Stay_Fit
                         ShowMessage(Properties.Resources.Set36);
                         break;
                 }
-            } else if (time.Equals("03:30 PM")) 
+            } else if (time.Equals("3:30 PM")) 
             {
                 switch (dateNumber % 3)
                 {
@@ -146,7 +147,7 @@ namespace Stay_Fit
                         ShowMessage(Properties.Resources.Set37);
                         break;
                 }
-            } else if (time.Equals("05:30 PM"))
+            } else if (time.Equals("5:30 PM"))
             {
                 switch (dateNumber % 3)
                 {
@@ -160,7 +161,7 @@ namespace Stay_Fit
                         ShowMessage(Properties.Resources.Set38);
                         break;
                 }
-            } else if (time.Equals("08:00 PM"))
+            } else if (time.Equals("8:00 PM"))
             {
                 switch (dateNumber % 3)
                 {
