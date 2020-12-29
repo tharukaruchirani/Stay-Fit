@@ -25,7 +25,7 @@ namespace Stay_Fit
         private static void SetTimer()
         {
             // Create a timer with a two second interval.
-            timer = new System.Timers.Timer(5*60*1000);
+            timer = new System.Timers.Timer(59*1000);
             // Hook up the Elapsed event for the timer. 
             timer.Elapsed += OnTimedEvent;
             timer.AutoReset = true;
@@ -43,8 +43,9 @@ namespace Stay_Fit
             int dateNumber =  (int)t.TotalDays;
 
             Console.WriteLine(time);
+            Console.WriteLine(dateNumber);
 
-            if (time.Equals("7:55 PM")) // "7:55 AM"
+            if (time.Equals("7:55 AM")) // "7:55 AM"
             {
 
                 switch (dateNumber % 3)
